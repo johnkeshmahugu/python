@@ -1,0 +1,28 @@
+#__author__ : john kesh mahugu <johnmahugu at gmail dot com> 07/07/2015@03:05PM
+from datetime import datetime as dt
+expires = dt(2015,7,8)# enter date in %yyyy,
+present = dt.now()
+if present > expires:
+    print "oza expired"#killswitch code here
+else:
+    print "not expired"
+    pass
+# kill switch self destruct code  johnmahugu  
+'''
+# self destruct self deleting suicide script: spawns a subprocess stops main then deletes self script muuuhahaham   >>>  (O_o) by kesh
+#use subprocess to create a new process with the explicit purpose of deleting your original script file. Something like this should work:
+import sys, subprocess
+print "deleting self"
+subprocess.Popen("python -c \"import os, time; time.sleep(1); os.remove('{}');\"".format(sys.argv[0]))
+sys.exit(0)
+'''
+ 
+#You probably wouldn't need the timeout in there but I've added it just to make sure that the process from the original script has been given enough time to close itself.
+'''
+>>> time.strftime(“%a %b %d %I:%M:%S %Y”,Now)
+‘Sun Dec 10 10:09:41 2000’
+'''
+'''
+from cookie.simplecookie
+#research this to set time as cookie hehehe some homework for you ... if you get stuck holla :)
+'''
